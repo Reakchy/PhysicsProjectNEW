@@ -1,4 +1,4 @@
-package org.example.controller;
+package org.example.web.ui;
 
 import org.example.model.ResistivityForm;
 import org.springframework.stereotype.Controller;

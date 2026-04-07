@@ -1,4 +1,4 @@
-package org.example.controller;
+package org.example.web.api;
 
 import org.example.model.ResistivityForm;
 import org.springframework.http.ResponseEntity;

@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function showResults(data) {
         const items = [
             { l: 'Металл', v: data.metal },
-            { l: 'Δt', v: fmt(data.DT, 4) + ' °C' },
+            { l: 'Δt', v: fmt(data.dt, 4) + ' °C' },
             { l: 'k', v: fmt(data.k, 6) },
             { l: 'S', v: fmt(data.areaMm2, 6) + ' мм²' },
             { l: 'ρ₁', v: fmt(data.rho1, 6) + ' Ом·мм²/м' },
